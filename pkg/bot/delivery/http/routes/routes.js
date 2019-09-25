@@ -4,7 +4,7 @@ const api = express.Router();
 
 const newDelivery = (usecase) => {
   const handler = new handlers(usecase);
-  api.post('/error', (req, res) => {
+  api.post('/report', (req, res) => {
     handler.reportError(req, res)
   })
 }
