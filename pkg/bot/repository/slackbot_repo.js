@@ -30,7 +30,7 @@ class botRepository {
               },
               {
                 "title": "Date",
-                "value": new Date(2018, 11, 24, 10, 33),
+                "value": new Date(),
                 "short": false
               }
             ],
