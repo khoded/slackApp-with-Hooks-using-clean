@@ -1,5 +1,5 @@
 const SlackWebhook = require('slack-webhook')
-const slack = new SlackWebhook('https://hooks.slack.com/services/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')
+const slack = new SlackWebhook('https://hooks.slack.com/services/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')
 
 class botRepository {
   async reportError(errorContent) {
